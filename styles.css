@@ -1,0 +1,73 @@
+.intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /*all sites*/
+    max-width: 1159px;
+    width: 100%;
+    margin: 0 auto;
+}
+.into_title{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 68px;
+    margin-top: 169px;
+    padding-right: 124px;
+}
+.intro_subtitle{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 36px;
+    margin-top: 25px;
+    padding-right: 124px;
+}
+.right {
+    margin-top: 169px;
+
+}
+.intro_butoms{
+    margin-top: 36px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.left_buttom{
+    padding: 15px 35px;
+    background: #007FFC;
+    border: none;
+    border-radius: 8px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: none;
+    outline: none;
+    margin-right: 23px;
+
+}
+.right_buttom{
+    padding: 15px 35px;
+    border: 2px solid #007FFC;
+    border-radius: 8px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #007FFC;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: none;
+    outline: none;
+}
